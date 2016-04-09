@@ -56,3 +56,9 @@ section .text
    jmp read
 
   ;rand: Need to generate random character
+
+  ;To Do List: 
+  ;Instead of writing to STDOUT write to file itself
+  ;Create random function to generate ramdom ASCII
+  ;Try to impliment CALL and RETURN
+  ;Beautify the Code
