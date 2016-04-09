@@ -53,4 +53,4 @@ section .text
    int KERNAL
    jmp read
 
-  ;rand:
+  ;rand: Need to generate random character
