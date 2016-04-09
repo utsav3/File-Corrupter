@@ -43,6 +43,8 @@ section .text
    mov ecx, buffer
    mov edx, 1
    int KERNAL
+   cmp eax, 0
+   je exit
    jmp write
 
   write:
