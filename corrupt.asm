@@ -23,6 +23,8 @@ section .text
 
   _start:
    pop ebx
+   cmp ebx,2		;Comparing argc value is 2 or not
+   jne EXITFALIURE
    pop ebx
    pop ebx
   ; call open
